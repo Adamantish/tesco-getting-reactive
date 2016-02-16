@@ -1,0 +1,168 @@
+$heading-text: #00539F;
+$shading: #EEEEF2;
+$thick-border: #6EA6DF;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: arial,sans-serif;
+    text-align: left;
+    font-size: 1em;
+  background-color: white;
+
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #C0D0FD;
+  z-index: 3;
+}
+
+main {
+  position: relative;
+  top: 5em;
+}
+
+h1 {
+  color: #EEEEF2;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+	color: #00539F;
+}
+
+nav {
+  display: inline-block;
+  left: 3em;
+  position: relative;
+}
+
+table {
+  border: solid black 2px;
+}
+
+thead {
+  font-style: bold;
+  background-color: #CBCBCB;
+}
+
+table *
+{
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  font-size: 0.95em;
+  border-right: black solid 2px;
+}
+
+tr {
+  margin: -2px;
+  padding: -2px;
+}
+
+th {
+  font-weight: bold;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+}
+
+td, th {
+  border-right: black solid 1px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td > * {
+  text-align: center;
+}
+
+.textbox {
+  width: 4em;
+  border: solid #C6C6C6 1px;
+  text-align: center;
+}
+
+#title{
+  display: inline-block;
+  padding-left: 1em;
+}
+
+#supplier--heading {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1em;
+  left: 2em;
+  position: relative;
+  color: grey;
+  z-index: 3;
+}
+
+.vertical-spacer {
+  position: relative;
+  width: 100%;
+  height: 2em;
+  top: 0em;
+  background-color: white;
+  z-index: 3;
+}
+
+.tableRow {
+  max-width: 100%;
+  background-color: white; 
+}
+
+.dataItem {
+  background-color: white;
+  color: black;
+}
+
+.table__container {
+  z-index: 2;
+  background-color: white;
+  padding: 2em;
+}
+
+.inactive {
+  background-color: #D5D5D5;
+  color: #C0C0C0;
+}
+
+.inactive > h2 {
+  color: #C0C0C0;
+}
+
+.shaded {
+  background-color: #EDEDED;
+  color: black;
+}
+
+.btn--remove {
+  background-color: #EEEEF2;
+  color: #00539F;
+  border: transparent;
+  cursor: pointer;
+}
+
+.tab {
+  position: relative;
+  left: 5em;
+  display: inline-block;
+  padding: 1.5em;
+  text-align: center;
+  width: 9em;
+  background-color: #F1EBEB;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.tab.selected {
+  background-color: white;
+  box-shadow: 1.5em -0.2em 3em  rgba(84, 84, 84, 0.2);
+  z-index: 2;
+}
+
+
+    
